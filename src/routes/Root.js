@@ -1,5 +1,6 @@
-function Home() {
+function Root() {
     return <div>
+      <header className="App-header">
         <h1>A header will go here</h1>
                 <a
                   className="App-link"
@@ -9,7 +10,8 @@ function Home() {
                 >
                   Learn React
                 </a>
+      </header>
     </div>;
 }
 
-export default Home
+export default Root
