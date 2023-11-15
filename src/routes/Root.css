@@ -19,13 +19,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.Top-header {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .App-link {
   color: #61dafb;
+  font-size:15px;
+}
+
+.App-start {
+  color: slategray;
+  padding: 7px;
+  font-size: 30px;
+  background-color: black;
+  outline: 1px;
 }
 
 @keyframes App-logo-spin {
