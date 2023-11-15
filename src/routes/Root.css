@@ -36,11 +36,8 @@
 }
 
 .App-start {
-  color: slategray;
-  padding: 7px;
   font-size: 30px;
-  background-color: black;
-  outline: 1px;
+  background-color: #008CBA;
 }
 
 @keyframes App-logo-spin {
