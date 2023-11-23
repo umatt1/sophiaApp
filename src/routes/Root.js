@@ -4,11 +4,11 @@ function Root() {
     return <div>
       <header className="App-header">
         <div className="Top-header">
-          <h1>SPH Project</h1>
+          <h1 className="Announcer">PrEPpy</h1>
           <button className="App-start">
           <a
             //className="App-start"
-            href={`/about`}
+            href={`/home`}
             target="_blank"
             rel="noopener noreferrer"
           >

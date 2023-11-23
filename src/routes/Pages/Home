@@ -1,7 +1,9 @@
 import './Home.css'
+import '@/Navigator.js' 
 
 function Home() {
     return <div>
+        <Navigator />
     </div>;
 }
 
