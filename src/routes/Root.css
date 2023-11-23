@@ -31,21 +31,34 @@
 
 .App-start {
   font-size: 30px;
-  background-color: white;
+  background-color: #61dafb; /* Change background color to match App-link */
   border: none;
-  color: grey;
+  color: white; /* Change text color to white for better contrast */
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
 }
 
-.App-start > * {
-  color: black;
+/* Style for when the button is hovered */
+.App-start:hover {
+  background-color: #4fa3d1; /* Darker shade on hover */
+}
+
+.App-start > a:visited {
+  color:white;
 }
 
 .Announcer {
-  background-color: white;
-  color: grey;
+  background-color: #61dafb; /* Change background color to match App-link */
+  color: white; /* Change text color to white for better contrast */
   padding: 10px;
 }
+
+/* Style for when the Announcer is hovered */
+/*
+.Announcer:hover {
+  background-color: #4fa3d1; 
+}
+*/
